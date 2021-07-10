@@ -1,0 +1,74 @@
+
+/*  колір основного тексту   #757575;*/
+/*  колір  тексту заголовків #212121; */
+/* акцент  #2196F3;  */
+/* білий #FFFFFF; */
+/* другорядний колір фону #F5F4FA; */
+/* колір підвалу #2F303A; */
+/* колір email та tel  rgba(255, 255, 255, 0,6); */
+/* колір логотипу #000000;  та  #2196F3; */
+/* колір фону кнопки #2196F3;  та колір тексту кнопки #FFFFFF; */
+/* колір фону героя #2F303A; */
+
+
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color:#2196F3;
+    --primary-bg-color:#F5F4FA;
+}
+
+body {background-color: #FFFFFF; color: var(--primary-text-color);}
+
+.logo {color: #000;}
+span.logo {color:#2196F3;}
+
+.list {list-style: none;}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {color: var(--accent-color);} 
+
+/* contacts list */
+.contacts-list .link {color: var(--primary-text-color);}
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+    color: var(--accent-color);
+}
+/* hero */
+.section.hero { background-color: #2F303A;}
+.hero-title { color: #FFFFFF;}
+button.hero { color: #FFFFFF; background-color: var(--accent-color);}
+
+/* section */
+.section-title {color: var(--title-text-color);}
+.section-subtitle {color: var(--title-text-color);}
+.section.team { background-color: var(--primary-bg-color);}
+.card-title {color: var(--title-text-color);}
+
+/* футер */
+.section.address { background-color: #2F303A;}
+.logo-footer {color: #FFFFFF;}
+.map { color: #FFFFFF;}
+.contacts { color: rgba(255, 255, 255, 0.6);}
+
+/* Сторінка Портфолио */
+
+button.portfolio {
+    color: var(--title-text-color);
+    background-color: var(--primary-bg-color);
+}
+button.portfolio:hover,
+button.portfolio:focus {color: #FFFFFF; background-color: var(--accent-color);}
+
+.project-title {color: var(--title-text-color);}
+.project-field {color: var(--primary-text-color);}
+
+
+
