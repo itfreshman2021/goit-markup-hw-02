@@ -45,6 +45,7 @@ span.logo {color:#2196F3;}
 .section.hero { background-color: #2F303A;}
 .hero-title { color: #FFFFFF;}
 button.hero { color: #FFFFFF; background-color: var(--accent-color);}
+button {cursor: pointer;}
 
 /* section */
 .section-title {color: var(--title-text-color);}
@@ -66,6 +67,7 @@ button.portfolio {
 }
 button.portfolio:hover,
 button.portfolio:focus {color: #FFFFFF; background-color: var(--accent-color);}
+
 
 .project-title {color: var(--title-text-color);}
 .project-field {color: var(--primary-text-color);}
