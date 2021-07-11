@@ -18,16 +18,34 @@
     --primary-bg-color:#F5F4FA;
 }
 
-body {background-color: #FFFFFF; color: var(--primary-text-color);}
+body {background-color: #FFFFFF;
+     color: var(--primary-text-color); 
+     font-family: Roboto, sans-serif;
+    
+    }
 
 .logo {color: #000;}
-span.logo {color:#2196F3;}
+.accent {color:#2196F3;}
+.logo {font-family: 
+Raleway ,sans-serif;
+text-decoration: none;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+}
 
 .list {list-style: none;}
 
 /* site-nav */
 .site-nav .link {
-    color: var(--title-text-color);
+    color: var(--title-text-color); 
+    text-decoration: none;
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -36,41 +54,144 @@ span.logo {color:#2196F3;}
 .site-nav .link.current {color: var(--accent-color);} 
 
 /* contacts list */
-.contacts-list .link {color: var(--primary-text-color);}
+.contacts-list .link {color: var(--primary-text-color); 
+    text-decoration: none; 
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;}
 .contacts-list .link:hover,
 .contacts-list .link:focus {
     color: var(--accent-color);
 }
 /* hero */
-.section.hero { background-color: #2F303A;}
-.hero-title { color: #FFFFFF;}
-button.hero { color: #FFFFFF; background-color: var(--accent-color);}
-button {cursor: pointer;}
+
+.hero-title { color: #FFFFFF; 
+
+background-color: #2F303A;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;}
+
+button.hero { color: #FFFFFF;
+     background-color: var(--accent-color); 
+
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;}
+
+button {cursor: pointer; font-family: inherit;}
 
 /* section */
-.section-title {color: var(--title-text-color);}
-.section-subtitle {color: var(--title-text-color);}
-.section.team { background-color: var(--primary-bg-color);}
-.card-title {color: var(--title-text-color);}
+.section-title {color: var(--title-text-color); 
+
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em; }
+
+.section-subtitle {color: var(--title-text-color); 
+
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;}
+
+.section-text { 
+
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;}
+
+.card-title {color: var(--title-text-color); 
+    
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;}
+
+.card-text { 
+    font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;}
 
 /* футер */
-.section.address { background-color: #2F303A;}
-.logo-footer {color: #FFFFFF;}
-.map { color: #FFFFFF;}
-.contacts { color: rgba(255, 255, 255, 0.6);}
+
+.logo-footer {color: #FFFFFF; 
+    background-color: #2F303A;
+     font-family: Raleway ,sans-serif;
+     
+     font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.map { color: #FFFFFF; 
+    background-color: #2F303A;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+line-height: 1.71;
+letter-spacing: 0.03em;}
+.map:hover,
+.map:focus {
+    color: var(--accent-color);}
+
+.contact.date { color: rgba(255, 255, 255, 0.6); 
+    background-color: #2F303A;
+    text-decoration: none;
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;}
+.contact.date:hover,
+.contact.date:focus {
+    color: var(--accent-color);} 
 
 /* Сторінка Портфолио */
 
 button.portfolio {
     color: var(--title-text-color);
-    background-color: var(--primary-bg-color);
+    background-color: var(--primary-bg-color); 
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
 }
 button.portfolio:hover,
 button.portfolio:focus {color: #FFFFFF; background-color: var(--accent-color);}
 
 
-.project-title {color: var(--title-text-color);}
-.project-field {color: var(--primary-text-color);}
+.project-title {color: var(--title-text-color); 
+text-decoration: none;  
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;}
+
+
+.project-field {color: var(--primary-text-color); 
+
+    text-decoration: none;
+    font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;}
 
 
 
