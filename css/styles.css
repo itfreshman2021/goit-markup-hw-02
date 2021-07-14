@@ -72,11 +72,11 @@ body {
   color: var(--accent-color);
 }
 /* hero */
+.section.hero {background-color:#2f303a;}
 
 .hero-title {
   color: var(--white-color);
 
-  background-color: #2f303a;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -146,11 +146,11 @@ body {
 
 /* футер */
 
+.section.address {background-color: #2f303a;}
 .logo-footer {
   color: var(--white-color);
-  background-color: #2f303a;
+  
   font-family: Raleway, sans-serif;
-
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -158,7 +158,7 @@ body {
 
 .map {
   color: var(--white-color);
-  background-color: #2f303a;
+  
   text-decoration: none;
   font-style: normal;
   line-height: 1.71;
@@ -170,7 +170,7 @@ body {
 
 .contact.date {
   color: rgba(255, 255, 255, 0.6);
-  background-color: #2f303a;
+  
   text-decoration: none;
   font-style: normal;
   line-height: 1.71;
